@@ -11,6 +11,6 @@ const handler = createMcpHandler((server) => {
       return { content: [{ type: 'text', text: `🎲 You rolled a ${value}!` }] };
     },
   );
-});
+}, {}, { basePath: "/api" });
  
 export { handler as GET, handler as POST, handler as DELETE };
