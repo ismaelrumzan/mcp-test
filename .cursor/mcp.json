@@ -1,0 +1,7 @@
+{
+    "mcpServers": {
+      "server-name": {
+        "url": "https://mcp-test-sage.vercel.app/api/mcp"
+      }
+    }
+  }
